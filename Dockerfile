@@ -1,4 +1,4 @@
-FROM quay.io/astronomer/astro-runtime:9.1.0-python-3.9-base
+FROM quay.io/astronomer/astro-runtime:9.7.0
 
 # Create a virtual environment
 RUN python -m venv dbt_venv
